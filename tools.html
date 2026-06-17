@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الأدوات | مستشارك الرقمي الآلي</title>
+  <meta name="description" content="ثلاث أدوات ذكاء اصطناعي لكشف الاحتيال: محلل الرسائل، فاحص العقود، ومقياس الخطورة.">
+  <link rel="canonical" href="https://protection-ecosystem.com/mustasharak/tools.html">
+  <meta property="og:title" content="أدوات كشف الاحتيال | مستشارك الرقمي">
+  <meta property="og:description" content="ثلاث أدوات ذكاء اصطناعي لكشف الاحتيال المالي الرقمي — مجاناً وفورياً.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-gem"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+        <span class="logo-text">مستشار<span>ك</span></span>
+      </a>
+      <div class="nav-links">
+        <a href="tools.html" class="nav-link active">الأدوات</a>
+        <a href="how-it-works.html" class="nav-link">كيف يعمل</a>
+        <a href="blog/index.html" class="nav-link">المدونة</a>
+        <a href="about.html" class="nav-link">عن المشروع</a>
+        <a href="tools.html" class="btn btn-primary btn-sm">جرّب مجاناً</a>
+      </div>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="tools.html">الأدوات</a><a href="how-it-works.html">كيف يعمل</a>
+      <a href="blog/index.html">المدونة</a><a href="about.html">عن المشروع</a>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <span class="eyebrow">أدوات مجانية</span>
+    <h1>حلّل — تحقق — احمِ نفسك</h1>
+    <p>ثلاث أدوات ذكاء اصطناعي تعمل في ثوانٍ بدون تسجيل أو خبرة مسبقة</p>
+  </div>
+
+  <main>
+  <section class="section">
+    <div class="container">
+      <div class="tool-page-grid">
+
+        <!-- ANALYZER -->
+        <div class="tool-page-card" id="messages">
+          <h3>
+            <span style="width:36px;height:36px;background:var(--p50);border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--p600)" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </span>
+            محلل الرسائل والعروض
+          </h3>
+          <p class="desc">الصق أي رسالة واتساب، تيليغرام، أو عرض استثماري — سيكشف الذكاء الاصطناعي أنماط التلاعب النفسي والكلمات الفخ تلقائياً.</p>
+          <textarea id="analyzerInput" rows="5" placeholder="الصق هنا نص الرسالة أو العرض الاستثماري..."></textarea>
+          <button class="btn btn-primary" id="analyzerBtn" style="width:100%;justify-content:center;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            تحليل فوري
+          </button>
+          <div id="analyzerResult" class="result-box"></div>
+          <p style="font-size:0.75rem;color:var(--subtle);margin-top:12px;line-height:1.6;">
+            يعتمد على قاعدة بيانات من أنماط الاحتيال الموثقة علمياً. دقة 92–98% وفق دراسات AllAboutAI 2024.
+          </p>
+        </div>
+
+        <!-- CONTRACT CHECKER -->
+        <div class="tool-page-card" id="contracts">
+          <h3>
+            <span style="width:36px;height:36px;background:var(--p50);border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--p600)" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            </span>
+            فاحص العقود
+          </h3>
+          <p class="desc">أدخل نص العقد الاستثماري وستكشف الأداة البنود المشبوهة، الثغرات القانونية، والشروط الخفية.</p>
+          <textarea id="contractInput" rows="5" placeholder="الصق هنا نص العقد الاستثماري..."></textarea>
+          <button class="btn btn-primary" id="contractBtn" style="width:100%;justify-content:center;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            فحص العقد
+          </button>
+          <div id="contractResult" class="result-box"></div>
+          <p style="font-size:0.75rem;color:var(--subtle);margin-top:12px;line-height:1.6;">
+            مستند لأبحاث NLP في تحليل الوثائق المالية — Springer Nature 2024.
+          </p>
+        </div>
+
+        <!-- DANGER METER -->
+        <div class="tool-page-card" id="meter" style="grid-column: 1 / -1;">
+          <h3>
+            <span style="width:36px;height:36px;background:var(--warn-light);border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--warn)" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </span>
+            مقياس الخطورة السريع
+          </h3>
+          <p class="desc" style="max-width:600px;">أجب على 5 أسئلة وستحصل على نسبة مئوية دقيقة لمستوى خطورة أي عرض استثماري. مستند لأبحاث 282 حالة احتيال موثقة.</p>
+
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-bottom:20px;">
+
+            <div style="background:var(--bg2);border-radius:var(--r);padding:16px;">
+              <p style="font-size:0.9rem;font-weight:600;color:var(--text);margin-bottom:10px;">هل يضمن العرض أرباحاً محددة؟</p>
+              <label style="display:flex;align-items:center;gap:8px;font-size:0.88rem;color:var(--muted);cursor:pointer;margin-bottom:6px;">
+                <input type="radio" name="mq1" value="1"> نعم، يقول "مضمون"
+              </label>
+              <label style="display:flex;align-items:center;gap:8px;font-size:0.88rem;color:var(--muted);cursor:pointer;">
+                <input type="radio" name="mq1" value="0"> لا، يذكر مخاطر واضحة
+              </label>
+            </div>
+
+            <div style="background:var(--bg2);border-radius:var(--r);padding:16px;">
+              <p style="font-size:0.9rem;font-weight:600;color:var(--text);margin-bottom:10px;">هل يوجد ضغط للقرار السريع؟</p>
+              <label style="display:flex;align-items:center;gap:8px;font-size:0.88rem;color:var(--muted);cursor:pointer;margin-bottom:6px;">
+                <input type="radio" name="mq2" value="1"> نعم، "ينتهي اليوم/الليلة"
+              </label>
+              <label style="display:flex;align-items:center;gap:8px;font-size:0.88rem;color:var(--muted);cursor:pointer;">
+                <input type="radio" name="mq2" value="0"> لا يوجد ضغط زمني
+              </label>
+            </div>
+
+            <div style="background:var(--bg2);border-radius:var(--r);padding:16px;">
+              <p style="font-size:0.9rem;font-weight:600;color:var(--text);margin-bottom:10px;">هل المنصة مرخصة من جهة معتمدة؟</p>
+              <label style="display:flex;align-items:center;gap:8px;font-size:0.88rem;color:var(--muted);cursor:pointer;margin-bottom:6px;">
+                <input type="radio" name="mq3" value="1"> غير واضح / لا ترخيص
+              </label>
+              <label style="display:flex;align-items:center;gap:8px;font-size:0.88rem;color:var(--muted);cursor:pointer;">
+                <input type="radio" name="mq3" value="0"> نعم، مرخصة وموثوقة
+              </label>
+            </div>
+
+            <div style="background:var(--bg2);border-radius:var(--r);padding:16px;">
+              <p style="font-size:0.9rem;font-weight:600;color:var(--text);margin-bottom:10px;">هل الأرباح غير واقعية (أكثر من 10% شهرياً)؟</p>
+              <label style="display:flex;align-items:center;gap:8px;font-size:0.88rem;color:var(--muted);cursor:pointer;margin-bottom:6px;">
+                <input type="radio" name="mq4" value="1"> نعم
+              </label>
+              <label style="display:flex;align-items:center;gap:8px;font-size:0.88rem;color:var(--muted);cursor:pointer;">
+                <input type="radio" name="mq4" value="0"> لا، أرقام معقولة
+              </label>
+            </div>
+
+            <div style="background:var(--bg2);border-radius:var(--r);padding:16px;">
+              <p style="font-size:0.9rem;font-weight:600;color:var(--text);margin-bottom:10px;">كيف وصلك هذا العرض؟</p>
+              <label style="display:flex;align-items:center;gap:8px;font-size:0.88rem;color:var(--muted);cursor:pointer;margin-bottom:6px;">
+                <input type="radio" name="mq5" value="1"> رسالة واتساب / تيليغرام / إعلان
+              </label>
+              <label style="display:flex;align-items:center;gap:8px;font-size:0.88rem;color:var(--muted);cursor:pointer;">
+                <input type="radio" name="mq5" value="0"> بحثت عنه بنفسي
+              </label>
+            </div>
+
+          </div>
+
+          <button class="btn btn-primary" id="meterBtn" style="justify-content:center;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            احسب مستوى الخطر
+          </button>
+          <div id="meterResult" class="result-box"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <div class="cta-section">
+    <div class="container">
+      <h2>هل وجدت احتيالاً؟ بلّغ عنه</h2>
+      <p>بلاغك يحمي الآخرين من الوقوع في نفس الفخ.</p>
+      <a href="../muballing/report.html" class="btn-cta">🚨 أبلغ عن احتيال في مُبلِّغ</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="nav-logo">
+          <div class="logo-gem"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+          <span class="logo-text">مستشار<span>ك</span></span>
+        </div>
+        <p>أداة ذكاء اصطناعي لكشف الاحتيال المالي الرقمي</p>
+        <a href="mailto:info@protection-ecosystem.com">info@protection-ecosystem.com</a>
+      </div>
+      <div class="footer-col"><h4>الأدوات</h4><a href="tools.html#messages">محلل الرسائل</a><a href="tools.html#contracts">فاحص العقود</a><a href="tools.html#meter">مقياس الخطورة</a></div>
+      <div class="footer-col"><h4>المعرفة</h4><a href="blog/index.html">المدونة</a><a href="how-it-works.html">كيف يعمل</a></div>
+      <div class="footer-col"><h4>المنظومة</h4><a href="../index.html">وعي المستثمر</a><a href="../muballing/index.html">مُبلِّغ</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2024 مشروع الحماية الرقمية.</span></div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

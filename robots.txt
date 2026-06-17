@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://protection-ecosystem.com/mustasharak/sitemap.xml
